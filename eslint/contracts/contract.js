@@ -15,6 +15,11 @@ var TestContract = function () {
         count: null
     });
 
+    LocalContractStorage.defineProperties(this, {
+        name: null,
+        count: null
+    });
+
 
     LocalContractStorage.defineMyProperties(this, {
         name: null,
